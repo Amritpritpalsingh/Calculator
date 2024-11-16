@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #99d98c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: #277da1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 2rem;
+    border: 1px solid #34a0a4 ;
+    padding: 40px;
+    width:min-content ;
+    border-radius: 10%;
+    background-color: #1e6091;
+}
+#buttons{
+    display: inline-flex;
+    
+}
+#numbers{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: .3rem;
+   flex-wrap: wrap;
+   width: 23vh;
+
+
+}
+#operetors{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: .3rem; 
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+button{
+    height: 3rem;
+    width: 3rem;
+    border: none;
+    border-radius: 20%;
+    background-color: #168aad;
+    color: white;
+    font-size: 20px;
+    font-style: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    outline: none;
+}
+#display{
+    font-size: 1.5rem;
+    height: 2.5rem;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    padding-right: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    padding-top: 10px;
+
+
+}
+
+#display:hover{
+    background-color: antiquewhite;
+
+}
+footer{
+    margin-top: 50px ;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-left: 25rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #002642;
+}
